@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Plans</title>
+    
+    <!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	<link href="css/model.css" rel="stylesheet">
+    
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body>
+<!-- ###################################################################################################################################################### -->
+
+					<div class="w3-container nav put-left">
+					  <div id="id01" class="w3-modal">
+						<div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:800px; min-width:auto">
+						  <div class="w3-center"><br>
+							<span href="index.html" onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+						  </div>
+						  <div id="contact-page" style="background-color:white;">
+							<div class="container">
+								<div class="row contact-wrap"> 
+									<div class="status alert alert-success" style="display: none"></div>
+									<form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="packsnd.php">
+										<div class="col-sm-5 col-sm-offset-1">
+											<div class="center">        
+												<h2>Submit Your Details</h2>
+											</div> 
+											<div class="form-group">
+												<label>Name *</label>
+												<input type="text" name="name" class="form-control" required="required">
+											</div>
+											<div class="form-group">
+												<label>Email *</label>
+												<input type="email" name="email" class="form-control" required="required">
+											</div>
+											<div class="form-group">
+												<label>Phone</label>
+												<input type="number" class="form-control" required="required">
+											</div>
+											<div class="form-group">
+												<label>Pack</label>
+												<input type="text" name="pack" id="pack" value="" class="form-control">
+											</div>    
+											<div class="form-group">
+												<button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button>
+											</div>											
+										</div>
+									</form> 
+								</div><!--/.row-->
+							</div><!--/.container-->
+						</div><!--/#contact-page-->
+						</div>
+					  </div>
+					</div>
+	
+<!-- ###################################################################################################################################################### -->
+	
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-4">
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +(91)-877-2222405</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                       <div class="social">
+                            <ul class="social-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                            </ul>
+                       </div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+                </div>
+				
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li class="active"><a href="plans.html">Plans</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+		
+    </header><!--/header-->
+
+    <section class="pricing-page">
+        <div class="container">
+            <div class="center">  
+                <h2>Pricing Table</h2>
+            </div>  
+            <div class="pricing-area text-center">
+                <div class="row">
+                    <div class="col-sm-4 plan price-one wow fadeInDown">
+                        <ul>
+                            <li class="heading-one">
+                                <h1>SOHO-Ultimate</h1>
+                                <span>₹2999/Month</span>
+                            </li>
+                            <li>50Mbps Speed</li>
+                            <li>1TB Download limit</li>
+                            <li>1TB Upload limit</li>
+                            <li>5Mbps FUP after 1TB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="SOHO-Ultimate" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 plan price-two wow fadeInDown">
+                        <ul>
+                            <li class="heading-two">
+                                <h1>SOHO-Premier</h1>
+                                <span>₹4999/Month</span>
+                            </li>
+                            <li>100Mbps Speed</li>
+                            <li>2TB Download limit</li>
+                            <li>2TB Upload limit</li>
+                            <li>5Mbps FUP after 2TB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="SOHO-Premier" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 plan price-three wow fadeInDown">
+                        <img src="images/ribon_one.png">
+                        <ul>
+                            <li class="heading-three">
+                                <h1>Premier</h1>
+                                <span>₹1699/Month</span>
+                            </li>
+                            <li>100Mbps Speed</li>
+                            <li>500GB Download limit</li>
+                            <li>500GB Upload limit</li>
+                            <li>4Mbps FUP after 500GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Premier" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 plan price-four wow fadeInDown">
+                        <ul>
+                            <li class="heading-four">
+                                <h1>Smart</h1>
+                                <span>₹499/Month</span>
+                            </li>
+                            <li>50Mbps Speed</li>
+                            <li>100GB Download limit</li>
+                            <li>100GB Upload limit</li>
+                            <li>1Mbps FUP after 100GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Smart" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 plan price-five wow fadeInDown">
+                        <ul>
+                            <li class="heading-five">
+                                <h1>Essential</h1>
+                                <span>₹649/Month</span>
+                            </li>
+                            <li>50Mbps Speed</li>
+                            <li>200GB Download limit</li>
+                            <li>200GB Upload limit</li>
+                            <li>1Mbps FUP after 200GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Essential" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 plan price-six wow fadeInDown">
+                         <img src="images/ribon_two.png">
+                        <ul>
+                            <li class="heading-six">
+                                <h1>Ultimate</h1>
+                                <span>₹899/Month</span>
+                            </li>
+                            <li>80Mbps Speed</li>
+                            <li>300GB Download limit</li>
+                            <li>300GB Upload limit</li>
+                            <li>2Mbps FUP after 300GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Ultimate" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <div class="col-sm-6 col-md-3 plan price-seven wow fadeInDown">
+                        <ul>
+                            <li class="heading-seven">
+                                <h1>Preferred</h1>
+                                <span>₹1099/Month</span>
+                            </li>
+                            <li>100Mbps Speed</li>
+                            <li>400GB Download limit</li>
+                            <li>400GB Upload limit</li>
+                            <li>3Mbps FUP after 400GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Preferred" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--/pricing-area-->
+        </div><!--/container-->
+    </section><!--/pricing-page-->
+	
+	<section class="pricing-page">
+        <div class="container">
+            <div class="center">  
+                <h2>Pricing Table</h2>
+            </div>  
+            <div class="pricing-area text-center">
+                <div class="row">
+                    <div class="col-sm-4 plan price-one wow fadeInDown">
+                        <ul>
+                            <li class="heading-one">
+                                <h1>SOHO-Ultimate</h1>
+                                <span>₹2999/Month</span>
+                            </li>
+                            <li>50Mbps Speed</li>
+                            <li>1TB Download limit</li>
+                            <li>1TB Upload limit</li>
+                            <li>5Mbps FUP after 1TB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="SOHO-Ultimate" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 plan price-two wow fadeInDown">
+                        <ul>
+                            <li class="heading-two">
+                                <h1>SOHO-Premier</h1>
+                                <span>₹4999/Month</span>
+                            </li>
+                            <li>100Mbps Speed</li>
+                            <li>2TB Download limit</li>
+                            <li>2TB Upload limit</li>
+                            <li>5Mbps FUP after 2TB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="SOHO-Premier" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-4 plan price-three wow fadeInDown">
+                        <img src="images/ribon_one.png">
+                        <ul>
+                            <li class="heading-three">
+                                <h1>Premier</h1>
+                                <span>₹1699/Month</span>
+                            </li>
+                            <li>100Mbps Speed</li>
+                            <li>500GB Download limit</li>
+                            <li>500GB Upload limit</li>
+                            <li>4Mbps FUP after 500GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Premier" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 plan price-four wow fadeInDown">
+                        <ul>
+                            <li class="heading-four">
+                                <h1>Smart</h1>
+                                <span>₹499/Month</span>
+                            </li>
+                            <li>50Mbps Speed</li>
+                            <li>100GB Download limit</li>
+                            <li>100GB Upload limit</li>
+                            <li>1Mbps FUP after 100GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Smart" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 plan price-five wow fadeInDown">
+                        <ul>
+                            <li class="heading-five">
+                                <h1>Essential</h1>
+                                <span>₹649/Month</span>
+                            </li>
+                            <li>50Mbps Speed</li>
+                            <li>200GB Download limit</li>
+                            <li>200GB Upload limit</li>
+                            <li>1Mbps FUP after 200GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Essential" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-sm-6 col-md-3 plan price-six wow fadeInDown">
+                         <img src="images/ribon_two.png">
+                        <ul>
+                            <li class="heading-six">
+                                <h1>Ultimate</h1>
+                                <span>₹899/Month</span>
+                            </li>
+                            <li>80Mbps Speed</li>
+                            <li>300GB Download limit</li>
+                            <li>300GB Upload limit</li>
+                            <li>2Mbps FUP after 300GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Ultimate" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <div class="col-sm-6 col-md-3 plan price-seven wow fadeInDown">
+                        <ul>
+                            <li class="heading-seven">
+                                <h1>Preferred</h1>
+                                <span>₹1099/Month</span>
+                            </li>
+                            <li>100Mbps Speed</li>
+                            <li>400GB Download limit</li>
+                            <li>400GB Upload limit</li>
+                            <li>3Mbps FUP after 400GB </li>
+                            <li class="plan-action">
+                                <a href="#contact-page" class="btn btn-primary" id="Preferred" onclick="dis(this.id)">Get</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--/pricing-area-->
+        </div><!--/container-->
+    </section><!--/pricing-page-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2013 <a target="_blank" href="http://airnetz.net/index.html" >Airnetz</a>. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript">
+        $('.carousel').carousel()
+    </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+	<script src="js/model.js"></script>
+	<script src="js/modalPopLite.min.js"></script>
+</body>
+</html>
